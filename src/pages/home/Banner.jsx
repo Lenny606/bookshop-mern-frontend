@@ -15,12 +15,12 @@ const Banner = () => {
 
             {/*  right side */}
             <div className={'w-full md:w-1/2'}>
-                <BannerItem alt={'homepage-banner'} src={"/banner.webp"}/>
+                <BannerItem alt={'homepage-banner'} src={"/banner_king_homepage.webp"}/>
             </div>
 
             {/*  left side*/}
             <div className={'w-full md:w-1/2'}>
-                <h1 className={'text-2xl md:text-5xl font-medium mb-7'}>book of this Moment</h1>
+                <h1 className={'text-2xl md:text-5xl font-medium mb-7'}>Our beloved master pieces</h1>
                 <p className={'mb-10'}>Our currently featured horror masterpiece is so good, you'll forget to sleep — or
                     maybe you just won't *want* to close your eyes again. Caution: side effects may include goosebumps,
                     paranoia, and a sudden urge to avoid clowns, cornfields, and creepy hotels.</p>
