@@ -1,5 +1,5 @@
 import {Link} from "react-router-dom";
-import banner from "../../../public/banner.webp"
+// import banner from "../../../public/banner.webp"
 
 const Banner = () => {
     return (
@@ -7,7 +7,7 @@ const Banner = () => {
 
             {/*  right side */}
             <div className={'w-full md:w-1/2'}>
-                <img src={banner} alt={'homepage-banner'}/>
+                <img src={""} alt={'homepage-banner'}/>
             </div>
 
 

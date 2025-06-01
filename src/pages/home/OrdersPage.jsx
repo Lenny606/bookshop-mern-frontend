@@ -1,5 +1,4 @@
 import {Link, useParams} from "react-router-dom";
-import banner from "../../../public/banner.webp"
 import {useDispatch} from "react-redux";
 import {addToCart} from "../../redux/features/cart/cartSlice.js";
 import {useGetOrdersByEmailQuery} from "../../redux/features/cart/ordersApi.js";
