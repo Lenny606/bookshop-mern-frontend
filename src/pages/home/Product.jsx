@@ -5,7 +5,7 @@ import {useFetchAllBooksQuery} from "../../redux/features/cart/booksApi.js";
 
 const Product = ({product}) => {
     //getting product from API
-    const {data:books} = useFetchAllBooksQuery();
+    // const {data:books} = useFetchAllBooksQuery();
 
     const dispatch = useDispatch()
     const handleCart = (product) => {
@@ -14,12 +14,12 @@ const Product = ({product}) => {
     return (
         <div className={'text-2xl md:text-xl font-medium mb-7'}>
 
-            PRODUCT NAME
+            {/*MISERY NAME*/}
             <div>
                 <button
 
                     onClick={()=>handleCart(product)} className={'bg-primary rounded-md px-5 py-2'}>
-                    ADD to Cart
+                    Add to Oblivion
                 </button>
             </div>
 
