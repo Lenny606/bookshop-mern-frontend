@@ -1,4 +1,6 @@
 export const getBaseUrl = () => {
-    // return "http://localhost:5000"
-    return "https://bookshop-mern-backend.vercel.app"
+    if (window.location.hostname === 'localhost') {
+        return  import.meta.env.VITE_BASE_DEV_URL
+    }
+    return import.meta.env.VITE_BASE_URL 
 }
